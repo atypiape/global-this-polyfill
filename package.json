@@ -1,14 +1,14 @@
 {
-  "name": "global-this-polyfill",
+  "name": "polyfill-global-this",
   "version": "0.1.0",
   "description": "Global property globalThis polyfill",
   "type": "module",
   "author": "Atypiape",
   "license": "MIT",
-  "homepage": "https://github.com/atypiape/global-this-polyfill.git",
+  "homepage": "https://github.com/atypiape/polyfill-global-this.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atypiape/global-this-polyfill.git"
+    "url": "https://github.com/atypiape/polyfill-global-this.git"
   },
   "files": [
     "dist"

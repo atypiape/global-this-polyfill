@@ -1,4 +1,4 @@
-# Global-This-Polyfill
+# Polyfill-Global-This
 
 A polyfill for `globalThis` in runtimes that don't support it. Just need to import the library at the top of the code entry.
 
@@ -11,19 +11,19 @@ A polyfill for `globalThis` in runtimes that don't support it. Just need to impo
 **NPM**
 
 ```bash
-npm i global-this-polyfill
+npm i polyfill-global-this
 ```
 
 **YARN**
 
 ```bash
-yarn add global-this-polyfill
+yarn add polyfill-global-this
 ```
 
 ### Example
 
 ```javascript
-import 'global-this-polyfill';
+import 'polyfill-global-this';
 
 // globalThis is now available
 console.log(typeof globalThis);

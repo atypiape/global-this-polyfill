@@ -4,7 +4,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: './lib/index.ts',
-      name: 'GlobalThisPolyfill',
+      name: 'PolyfillGlobalThis',
       fileName: 'index'
     }
   }

@@ -6,8 +6,8 @@ const theGlobalThis = getGlobalThis();
 if (theGlobalThis && !("globalThis" in theGlobalThis)) {
   try {
     (theGlobalThis as any).globalThis = theGlobalThis;
-    console?.log("[GLOBAL-THIS-POLYFILL] globalThis injected!");
+    console?.log("[POLYFILL-GLOBAL-THIS] globalThis injected!");
   } catch (e) {
-    console?.error("GLOBAL-THIS-POLYFILL]", (e as Error).message);
+    console?.error("[POLYFILL-GLOBAL-THIS]", (e as Error).message);
   }
 }
