@@ -1,0 +1,40 @@
+{
+  "name": "global-this-polyfill",
+  "version": "0.1.0",
+  "description": "Global property globalThis polyfill",
+  "type": "module",
+  "author": "Atypiape",
+  "license": "MIT",
+  "homepage": "https://github.com/atypiape/global-this-polyfill.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atypiape/global-this-polyfill.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "global",
+    "globalThis",
+    "self",
+    "window",
+    "polyfill",
+    "shim"
+  ],
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && tsc --build tsconfig.declare.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
